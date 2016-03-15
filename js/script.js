@@ -20,6 +20,8 @@ $(document).ready(function() {
 
     push.on('registration', function(data) {
         // data.registrationId
+        alert(data);
+        alert(data.registrationId);
         $("#gcm_id").html(data.registrationId);
     });
 
