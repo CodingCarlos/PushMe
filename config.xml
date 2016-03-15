@@ -6,7 +6,7 @@
         id        = "co.codingcarlos.pushme"
         version   = "0.0.1">
 
-    <name>CrapMe</name>
+    <name>PushMe</name>
 
     <description>
         Recive push notifications.
