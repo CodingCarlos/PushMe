@@ -25,8 +25,8 @@ sender.send(message, { registrationTokens: regTokens }, function (err, response)
 	else    console.log(response);
 });
 
-// Send to a topic, with no retry this time
-sender.sendNoRetry(message, { topic: '/topics/global' }, function (err, response) {
-	if(err) console.error(err);
-	else    console.log(response);
-});
+// // Send to a topic, with no retry this time
+// sender.sendNoRetry(message, { topic: '/topics/global' }, function (err, response) {
+// 	if(err) console.error(err);
+// 	else    console.log(response);
+// });
