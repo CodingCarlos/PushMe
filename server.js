@@ -10,11 +10,11 @@ message.addData('count', '5 mensajes');
 // message.addNotification('icon', 'ic_launcher');
 
 // as object
-message.addNotification({
-	title: 'Alert!!!',
-	body: 'Abnormal data access',
-	icon: 'ic_launcher'
-});
+// message.addNotification({
+// 	title: 'Alert!!!',
+// 	body: 'Abnormal data access',
+// 	icon: 'ic_launcher'
+// });
 
 var regTokens = ['ftztK76Zxpc:APA91bGsmbZIm_-EhjzMFTDKbgoCKvOURYEjBLmvxVKZj_UVciyUcK89n1GDt2I8tFGFw75eBuraoa9VDNcaz7eosf-UF5c2FV07OCL9ayT0J-a19w4vAs8O5sJCkBbW3N5w8baRpYjI'];
 
