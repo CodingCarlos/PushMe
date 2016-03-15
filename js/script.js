@@ -33,7 +33,7 @@ document.addEventListener("deviceready", function() {
 		// data.sound,
 		// data.image,
 		// data.additionalData
-		$("#notifications").prepend('<li> ' + data.message + ' : ' + data.message + ' - (' + data.count + ') img: ' + data.image + '. additionalData: ' + data.additionalData + '</li>');
+		$("#notifications").prepend('<li> ' + data.title + ' : ' + data.message + ' - (' + data.count + ') img: ' + data.image + '. additionalData: ' + data.additionalData + '</li>');
 	});
 
 	push.on('error', function(e) {

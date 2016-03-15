@@ -2,10 +2,12 @@ var gcm = require('node-gcm');
 
 var message = new gcm.Message();
 
-// message.addData('key1', 'msg1');
-message.addNotification('title', 'Alert!!!');
-message.addNotification('body', 'Abnormal data access');
-message.addNotification('icon', 'ic_launcher');
+message.addData('title', 'Gamify');
+message.addData('message', 'Sean ha comentado en tu logro El tamaño importa.');
+message.addData('count', '5 mensajes');
+// message.addNotification('title', 'Alert!!!');
+// message.addNotification('body', 'Abnormal data access');
+// message.addNotification('icon', 'ic_launcher');
 
 // as object
 message.addNotification({
